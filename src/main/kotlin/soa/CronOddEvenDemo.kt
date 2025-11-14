@@ -69,6 +69,9 @@ class IntegrationApplication(
             }
         }
 
+    /**
+     * Integrationi flow that routes numbers to even or odd channels.
+     */
     @Bean
     fun evenOrOdd(): IntegrationFlow =
         integrationFlow("numberChannel") {
