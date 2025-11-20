@@ -70,7 +70,7 @@ class IntegrationApplication(
         }
 
     /**
-     * Integrationi flow that routes numbers to even or odd channels.
+     * Integration flow that routes numbers to even or odd channels.
      */
     @Bean
     fun evenOrOdd(): IntegrationFlow =
